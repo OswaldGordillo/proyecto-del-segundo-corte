@@ -46,4 +46,9 @@ public class estatua {
     public void setAltura(double altura){
         this.altura = altura;
     }
+    @Override
+    public String toString() {
+        return "año de creacion: " + getAnioCreacion() + ", ¿en venta?: " + getVenta()
+        + ", altura: " + getAltura() + ", material: " + getMaterial();
+    }
 }
